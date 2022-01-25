@@ -47,4 +47,6 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 ![游戏效果](https://s4.ax1x.com/2022/01/25/7H9qdP.png)
 
 **【最后】感谢柳姐姐的指导，感谢Pyr的开发前辈的指导！之后我更新出更多功能的！ヾ(≧▽≦*)o
+*# Copyright © 2022 MOxiner (or Moxiners). All Rights Reserved.
+
 
