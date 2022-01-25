@@ -47,7 +47,9 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 ![游戏效果](https://s4.ax1x.com/2022/01/25/7H9qdP.png)
 
 ### 【最后】
+* 本插件可以整合，但请保证版本更新为最新版
+* 本插件原则不可商用，但如果商用整合，请经*Moxiner*授权！
 **感谢柳姐姐的指导，感谢Pyr的开发前辈的指导！之后我更新出更多功能的！ヾ(≧▽≦*)o**
-* Copyright © 2022 MOxiner (or Moxiners). All Rights Reserved.
+ *Copyright © 2022 MOxiner (or Moxiners). All Rights Reserved.*
 
 
