@@ -48,10 +48,10 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 
 ## 【效果截图】
 ### 【控制台效果】
-[控制台截图](https://www.minebbs.com/attachments/png.20082/)
+[控制台截图](https://s4.ax1x.com/2022/01/25/7H912Q.png)
 ### 【游戏效果】
-[GUI效果](https://www.minebbs.com/attachments/png.20087/)
-[游戏效果](https://www.minebbs.com/attachments/png.20088/)
+[GUI效果](https://s4.ax1x.com/2022/01/25/7H9fPO.png)
+[游戏效果](https://s4.ax1x.com/2022/01/25/7H9qdP.png)
 
 ## 【最后】感谢柳姐姐的指导，感谢Pyr的开发前辈的指导！之后我更新出更多功能的！ヾ(≧▽≦*)o
 
