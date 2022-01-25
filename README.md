@@ -1,13 +1,15 @@
 # Call
 ### Pyr版接入经济插件的全服喊话
 ### 目前仅接入计分板经济，后续版本会接入LL经济
-## 【指令介绍】
+  ## 【指令介绍】
 | 指令内容|	指令描述
+----|----|
 |/call a|	向所有玩家喊话
 |/call p|	向某一个玩家喊话
 ## 【注意】部分服务端不支持含有空格的指令，请自行修改源文件，或联系莫欣儿以获得帮助！o(*￣▽￣*)ブ
 【配置文件】插件本身
-、、、
+
+```
 ========================================= 配置界面 =========================================
 
 TIME = 240              # 时间后续版本会使用到的参数
@@ -29,14 +31,15 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 [+] 可选是否扣除管理员经济
 
 敬请期待
-、、、
 
-## 【使用方法】
-### 【step 1】请先安装 [BDSPyruner]https://github.com/WillowSauceR/BDSpyrunner/invitations
+```
+
+  ## 【使用方法】
+   * 【step 1】请先安装 [BDSPyruner]https://github.com/WillowSauceR/BDSpyrunner/invitations
  前置加载器
-### 【step 2】将本插件丢进 BDS根目录\plugins\py 文件夹中
-### 【step 3】配置本插件 
-### 【step 4】启动服务器，并看到控制台有以下输出（详情请看图 ”Loading“）
+   * 【step 2】将本插件丢进 BDS根目录\plugins\py 文件夹中
+   * 【step 3】配置本插件 
+   * 【step 4】启动服务器，并看到控制台有以下输出（详情请看图 ”Loading“）
 
 ## 【说明】
 ### 【1】此插件仅支持计分板经济（LL经济后续适配）
@@ -45,10 +48,10 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 
 ## 【效果截图】
 ### 【控制台效果】
-[控制台截图]https://www.minebbs.com/attachments/png.20082/
+[控制台截图](https://www.minebbs.com/attachments/png.20082/)
 ### 【游戏效果】
-[GUI效果]https://www.minebbs.com/attachments/png.20087/
-[游戏效果]https://www.minebbs.com/attachments/png.20088/
+[GUI效果](https://www.minebbs.com/attachments/png.20087/)
+[游戏效果](https://www.minebbs.com/attachments/png.20088/)
 
 ## 【最后】感谢柳姐姐的指导，感谢Pyr的开发前辈的指导！之后我更新出更多功能的！ヾ(≧▽≦*)o
 
