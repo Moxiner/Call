@@ -28,7 +28,7 @@ ALL_PRICE = 300         # 暂未开发 =￣ω￣=
 
 ```
 ### 【使用方法】
-   * 【step 1】请先安装 [BDSPyruner](https://github.com/WillowSauceR/BDSpyrunner/invitations)
+   * 【step 1】请先安装 [BDSPyruner](https://github.com/WillowSauceR/BDSpyrunner/)
  前置加载器
    * 【step 2】将本插件丢进 BDS根目录\plugins\py 文件夹中
    * 【step 3】配置本插件 
