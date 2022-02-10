@@ -1,12 +1,12 @@
 # Call
-**Pyr版接入经济插件的全服喊话** 
-**目前仅接入计分板经济，后续版本会接入*LL经济***
-
 ![Liscense](https://img.shields.io/github/license/Moxiner/Call)
 ![Downloads](https://img.shields.io/github/downloads/Moxiner/Call/total)
 ![Release](https://img.shields.io/github/v/release/Moxiner/Call)
 ![BDS](https://img.shields.io/badge/support--Pyr--version-1.9.9-red)
 ![CodeFactor](https://www.codefactor.io/repository/github/Moxiner/Call/badge)  
+
+**Pyr版接入经济插件的全服喊话** 
+**目前仅接入计分板经济，后续版本会接入*LL经济***
 
 ### 【指令介绍】
 | 指令内容|	指令描述
