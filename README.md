@@ -58,7 +58,7 @@ LLSE版 | [Pyr版](README.md)
 
 ## 【效果截图】
 ### 【控制台效果】
-![控制台截图](https://www.minebbs.com/attachments/gui-png.24594/)
+![控制台截图]https://www.minebbs.com/attachments/png.24592/)
 ### 【游戏效果】
 ![GUI效果](https://www.minebbs.com/attachments/png.24593/)
 ![游戏效果](https://www.minebbs.com/attachments/gui-png.24594/)
