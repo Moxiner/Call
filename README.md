@@ -6,7 +6,7 @@
 ![BDS](https://img.shields.io/badge/support--Pyr--version-1.9.9-red)
 ![CodeFactor](https://www.codefactor.io/repository/github/Moxiner/Call/badge)  
 
-LLSE版 | [Pyr版](README.md)
+LLSE版 | [Pyr版](README_PYR.md)
 
 ### 【指令介绍】
 | 指令内容|	指令描述
