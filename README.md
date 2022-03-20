@@ -5,56 +5,52 @@
 ![BDS](https://img.shields.io/badge/support--Pyr--version-1.9.9-red)
 ![CodeFactor](https://www.codefactor.io/repository/github/Moxiner/Call/badge)  
 
-**Pyr版接入经济插件的全服喊话** 
-**目前仅接入计分板经济，后续版本会接入*LL经济***
+### 这里是 LLSE版 的介绍
 
 ### 【指令介绍】
 | 指令内容|	指令描述
 ----|----|
-|/calla|	向所有玩家喊话
-|/callp|	向某一个玩家喊话
-|/callreload| 重载插件
+|/call a|	向所有玩家喊话
+|/call p|	向某一个玩家喊话
+|/ll reload Call| 重载插件
 【注意】BDSPyr不支持含有空格的指令，我也没有办法！o(*￣▽￣*)ブ
-### 【配置文件】 *\plugins\py\Call\config.json*
+### 【配置文件】 *\plugins\Call\config.json*
 
 ```
 @json
 {
-    "money": "money",    // 计分板经济
-    "coin": 50,    // 向某人喊话价格
-    "all_coin": 300,    // 向全服喊话价格
-    "money_made": 1  // 计算方式 可以填入1 或 2
-}
-
+    "DISPLAYERMONEY": "元", // 货币单位
+    "COMMAND": "Call",  // 顶级指令 （次级指令需到源码中修改）
+    "DECRIPTION": "全服喊话", // 指令描述
+    "ALIAS": "全服喊话", // 顶级指令别名
+    "MONEY": "LLMONEY", // 经济系统   LLMONEY经济填写"LLMONEY"    计分板经济填写计分板名称
+    "COIN": 50,    // 单次喊话费用
+    "ALL_COIN": 300,   // 全服喊话费用
+    "MONEY_MODE": 2    // 全服喊话费用计算模式，共两种模式，可填 "1" 或 "2"。
+                     
 //计算方式说明
 // 方法 1    最终价格 = 全服喊话价格
 // 方法 2    最终价格 = 全服喊话价格 X 服内人数
 
-
 // 下个版本将加入：
 
 // [+] 喊话黑名单
-// [+] LL经济
 // [+] 可选是否扣除管理员经济
 
 // 敬请期待
-// 由于 Pyr 中的 Json 文件不允许有注释
-// 请不要直接复制本描述代码
-// 配置文件会在第一次启动时生成
+// 由于json文件不支持注释，此文件仅供参考，请不要直接复制此文件！
 
 ```
 ### 【使用方法】
-   * 【step 1】请先安装 [BDSPyruner](https://github.com/WillowSauceR/BDSpyrunner/)
+   * 【step 1】请先安装 [LiteLoadBDS](https://github.com/LiteLDev/LiteLoaderBDS)
  前置加载器
-   * 【step 2】将本插件丢进 BDS根目录\plugins\py 文件夹中
+   * 【step 2】将本插件丢进 BDS根目录\plugins\ 文件夹中
    * 【step 3】配置插件 
    * 【step 4】启动服务器，并看到控制台有以下输出（详情请看图 ”Loading“）
 
 ### 【说明】
- * 【1】此插件仅支持计分板经济（LL经济后续适配）
- * 【2】此插件因玩家取消喊话，或喊话不合法将不会扣费（详情请看游戏效果截图）( •̀ ω •́ )y
- * 【3】此插件会在后台输出一些不必要的信息，目前我还无力差别屏蔽（详情见图”command“）( •̀ ω •́ )y
- * 【4】此插件有两种价格计算方式
+ * 【1】此插件因玩家取消喊话，或喊话不合法将不会扣费（详情请看游戏效果截图）( •̀ ω •́ )y
+ * 【2】此插件有两种价格计算方式 ( •̀ ω •́ )y
      * 模式 1 服内无论多少人：最终价格 = 全服喊话价格
      * 模式 2 按服内人数算：最终价格 = 全服喊话价格 X 服内人数 
 
