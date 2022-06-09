@@ -34,14 +34,19 @@ LLSE版 | [Pyr版](README_PYR.md)
 // 方法 2    最终价格 = 全服喊话价格 X 服内人数
 
 // 下个版本将加入：
-
-// [+] 喊话黑名单
 // [+] 可选是否扣除管理员经济
 
 // 敬请期待
 // 由于json文件不支持注释，此文件仅供参考，请不要直接复制此文件！
 
 ```
+### 【配置文件】 *\plugins\Call\banner.json*
+```
+@json
+["Steve","Alixe"] 
+// 保存此文件即可，无需重载插件
+```
+
 ### 【使用方法】
    * 【step 1】请先安装 [LiteLoadBDS](https://github.com/LiteLDev/LiteLoaderBDS)
  前置加载器
