@@ -1,0 +1,10 @@
+{
+    "DISPLAYERMONEY": "元",
+    "COMMAND": "Call",
+    "DECRIPTION": "全服喊话",
+    "ALIAS": "全服喊话",
+    "MONEY": "LLMONEY",
+    "COIN": 50,
+    "ALL_COIN": 300,
+    "MONEY_MODE": 2
+}
