@@ -41,7 +41,7 @@ LLSE版 | [Pyr版](README_PYR.md)
 // 由于json文件不支持注释，此文件仅供参考，请不要直接复制此文件！
 
 ```
-### 【配置文件】 *\plugins\Call\banner.json*
+### 【喊话黑名单】 *\plugins\Call\banner.json*
 ```
 @json
 ["Steve","Alixe"] 
