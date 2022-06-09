@@ -17,6 +17,7 @@ Pyr版 | [LLSE版](README.md)
 |/calla|	向所有玩家喊话
 |/callp|	向某一个玩家喊话
 |/callreload| 重载插件
+|修改配置文件|喊话黑名单
 【注意】BDSPyr不支持含有空格的指令，我也没有办法！o(*￣▽￣*)ブ
 ### 【配置文件】 *\plugins\py\Call\config.json*
 
@@ -36,7 +37,7 @@ Pyr版 | [LLSE版](README.md)
 
 // 下个版本将加入：
 
-// [+] 喊话黑名单
+
 // [+] LL经济
 // [+] 可选是否扣除管理员经济
 
@@ -46,6 +47,14 @@ Pyr版 | [LLSE版](README.md)
 // 配置文件会在第一次启动时生成
 
 ```
+
+### 【喊话黑名单】 *\plugins\Call\banner.json*
+```
+@json
+["Steve","Alixe"] 
+// 保存此文件即可，无需重载插件
+```
+
 ### 【使用方法】
    * 【step 1】请先安装 [BDSPyruner](https://github.com/WillowSauceR/BDSpyrunner/)
  前置加载器
