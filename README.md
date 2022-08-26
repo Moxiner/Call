@@ -3,7 +3,7 @@
 ![Liscense](https://img.shields.io/github/license/Moxiner/Call)
 ![Downloads](https://img.shields.io/github/downloads/Moxiner/Call/total)
 ![Release](https://img.shields.io/github/v/release/Moxiner/Call)
-![BDS](https://img.shields.io/badge/support--LLSE--version-2.2-red)
+![BDS](https://img.shields.io/badge/support--LLSE--version-Newest-red)
 ![CodeFactor](https://www.codefactor.io/repository/github/Moxiner/Call/badge)  
 
 LLSE版 | [Pyr版](README_PYR.md)
